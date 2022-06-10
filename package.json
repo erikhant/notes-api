@@ -1,0 +1,27 @@
+{
+  "name": "notes-app-hapi",
+  "version": "1.0.0",
+  "description": "notes app api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "npx eslint ./src/**/*.js --fix"
+  },
+  "keywords": [
+    "notes",
+    "app"
+  ],
+  "author": "erik",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.1.20"
+  }
+}
