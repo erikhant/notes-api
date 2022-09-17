@@ -1,7 +1,7 @@
-const notes = require('./notes')
+const notes = require('./notes');
 
-const isDataSaved = (id) => notes.filter((note) => note.id === id).length > 0
+const isDataSaved = (id) => notes.filter((note) => note.id === id).length > 0;
 
 module.exports = {
-  isDataSaved
-}
+  isDataSaved,
+};
