@@ -6,10 +6,7 @@ class UsersHandler {
     this._validator = validator;
 
     this.postUserHandler = this.postUserHandler.bind(this);
-    this.getUsersHandler = this.getUsersHandler.bind(this);
     this.getUserByIdHandler = this.getUserByIdHandler.bind(this);
-    this.putUserByIdHandler = this.putUserByIdHandler.bind(this);
-    this.deleteUserByIdHandler = this.deleteUserByIdHandler.bind(this);
   }
 
   async postUserHandler(request, h) {
